@@ -47,13 +47,9 @@ def get_text_messages(message):
                          f'{parser_bot()}'
                          )
     elif message.text == "/help":
-<<<<<<< HEAD
+
         bot.send_message(message.from_user.id, "команда 'курс' выведет актуальные курсы валют по минску на текущую дату!")
-=======
 
-        bot.send_message(message.from_user.id, "команда 'курс' выведет актуальные курсы валют по минску")
-
->>>>>>> dev
     else:
         bot.send_message(message.from_user.id,
                          "Я тебя не понимаю. Напиши /help.")
