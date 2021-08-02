@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-def parser_bot():
+
     counter = 0
     bank_string = []
     result = []
@@ -34,4 +34,3 @@ def parser_bot():
             bank_string = []
 
 
-parser_bot()
